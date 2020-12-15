@@ -16,7 +16,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .paths(PathSelectors.any())
-                .apis(RequestHandlerSelectors.basePackage("edu.miu.productservice"))
+                .apis(RequestHandlerSelectors.basePackage("com.watiti.productservice"))
                 .build();
 
     }
